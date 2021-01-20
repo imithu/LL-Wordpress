@@ -20,11 +20,11 @@ use LL\Lang;
  * 
  * 
  * @since   2.1.1
- * @version 2.1.1
+ * @version 2.1.1-wordpress-specific-1
  * @author  Mahmudul Hasan Mithu
  */
-add_action( 'wp_ajax_LL_lang_set', LL_lang_set() );
-add_action( 'wp_ajax_nopriv_LL_lang_set', LL_lang_set() );
+add_action( 'wp_ajax_LL_lang_set', 'LL_lang_set' );
+add_action( 'wp_ajax_nopriv_LL_lang_set', 'LL_lang_set' );
 function LL_lang_set(){
     $lang = $_POST['lang'];
 
