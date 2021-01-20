@@ -1,0 +1,9 @@
+{
+    "lang_default": "lang_name",
+    "rtl": [ "lang_name_1", "lang_name_2", "lang_name_..." ],
+    "info": 
+    [
+        [ "key", "info_1", "info_2", "info_..." ],
+        [ "key", "info_1", "info_2", "info_..." ]
+    ]
+}
